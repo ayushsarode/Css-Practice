@@ -1,0 +1,43 @@
+* {
+  background: #000;
+  color: white;
+  font-family: sans-serif;
+}
+
+h1 {
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 5%;
+  /* border-bottom: 2px #fff solid; */
+}
+
+.container {
+  display: flex;
+  gap: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+p {
+  background: #fff;
+  color: black;
+  padding: 25px 35px;
+}
+
+/* .one {
+  margin-left: 10px;
+}
+
+.three {
+  margin-right: 10px;
+} */
+
+@media screen and (max-width: 650px) {
+  .container {
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
